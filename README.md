@@ -90,7 +90,8 @@ Publish the website in the given URL.
 ```
 
 ## OUTPUT:
-![image](https://github.com/feryjfgkuyfgewjfgew/Calc/assets/150319377/3b043626-dd1d-462f-a496-d3f6b63fd90b)
+![image](https://github.com/feryjfgkuyfgewjfgew/Calc/assets/150319377/a3492f8b-aae3-4820-8fae-579505b9cb4a)
+
 
 
 ## RESULT:
