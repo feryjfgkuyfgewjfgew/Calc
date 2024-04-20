@@ -43,8 +43,22 @@ Publish the website in the given URL.
             else if (e.innerHTML == 'C') {
                 output.value = '';
             }
-            else if (e.id == '1') {
-                output.value = '1';
+            else if (e.id == '9') {
+                output.value = '9';
+            }
+            else if (e.id == '8') {
+                output.value = '8';
+            }else if (e.id == '7') {
+                output.value = '7';
+            }else if (e.id == '6') {
+                output.value = '6';
+            }else if (e.id == '5') {
+                output.value = '5';
+            }
+            else if (e.id == '2') {
+                output.value = '2';
+            }else if (e.id == '3') {
+                output.value = '3';
             }
             else {
                 output.value += e.innerHTML;
@@ -65,17 +79,23 @@ Publish the website in the given URL.
         <div class="m-3 col-2 btn btn-danger rounded-4" onclick="fn(this)">C</div>
         <div class="m-3 col-2 btn btn-danger rounded-4" onclick="fn(this)" id="back"><i class="bi bi-backspace"></i>
         </div>
-        <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)">7</div>
-        <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)">8</div>
-        <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)">9</div>
+        
+        <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)" id="7" ><i class="bi bi-7-square"> </i></div>
+        
+        <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)" id="8" ><i class="bi bi-8-square"> </i></div>
+
+        <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)" id="9" ><i class="bi bi-9-square"> </i></div>
         <div class="m-3 col-2 btn btn-primary rounded-4" onclick="fn(this)">*</div>
-        <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)">4</div>
-        <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)">5</div>
-        <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)">6</div>
+        
+        <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)" id="4" ><i class="bi bi-4-square"> </i></div>
+ 
+        <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)" id="5" ><i class="bi bi-5-square"> </i></div>
+        <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)" id="6" ><i class="bi bi-6-square"> </i></div>
         <div class="m-3 col-2 btn btn-primary rounded-4" onclick="fn(this)">-</div>
         <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)" id="1" ><i class="bi bi-1-square"> </i></div>
-        <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)">2</div>
-        <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)">3</div>
+        <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)" id="2" ><i class="bi bi-2-square"> </i></div>
+        <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)" id="3" ><i class="bi bi-3-square"> </i></div>
+
         <div class="m-3 col-2 btn btn-primary rounded-4" onclick="fn(this)">+</div>
         <div class="m-3 col-2 btn btn-success rounded-4" onclick="fn(this)">0</div>
         <div class="m-3 col-2 btn btn-success rounded-4" btn-success onclick="fn(this)">.</div>
@@ -86,11 +106,9 @@ Publish the website in the given URL.
 </body>
 
 </html>
-
 ```
-
 ## OUTPUT:
-![image](https://github.com/feryjfgkuyfgewjfgew/Calc/assets/150319377/a3492f8b-aae3-4820-8fae-579505b9cb4a)
+![Screenshot 2024-04-20 120357](https://github.com/feryjfgkuyfgewjfgew/Calc/assets/150319377/1d35ae8e-a4d8-4d74-98f8-e5b55560cb56)
 
 
 
